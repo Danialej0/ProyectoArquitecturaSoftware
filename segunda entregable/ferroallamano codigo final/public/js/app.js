@@ -1,5 +1,3 @@
-// public/js/app.js
-
 console.log("🟢 app.js cargado correctamente en el navegador.");
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -19,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         console.warn("⚠️ No se encontró el botón del ojito o el input de contraseña.");
     }
 
+    
     const loginForm = document.querySelector("#loginForm");
 
     if (loginForm) {

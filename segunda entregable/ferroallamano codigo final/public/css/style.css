@@ -1,4 +1,3 @@
-/* Importar una fuente limpia similar al diseño (Google Fonts) */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 * {
@@ -9,7 +8,7 @@
 }
 
 body {
-    background-color: #EBF4F1; /* Verde/Gris muy claro del fondo */
+    background-color: #EBF4F1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +27,6 @@ body {
     padding: 40px 30px;
     border-radius: 8px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
-    /* Borde superior naranja tipo gradiente */
     border-top: 6px solid #D97706; 
 }
 
@@ -109,7 +107,7 @@ label {
 .input-wrapper input {
     width: 100%;
     padding: 12px 12px 12px 35px;
-    background-color: #E2E8E4; /* Color gris/verdoso del input */
+    background-color: #E2E8E4; 
     border: 1px solid transparent;
     border-radius: 4px;
     font-size: 13px;
@@ -158,7 +156,7 @@ label {
 .btn-submit {
     width: 100%;
     padding: 12px;
-    background-color: #D97706; /* Naranja del botón */
+    background-color: #D97706; 
     color: #1a1a1a;
     border: none;
     border-radius: 4px;
