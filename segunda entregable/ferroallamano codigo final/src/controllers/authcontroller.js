@@ -10,7 +10,7 @@ class AuthController {
         
         const dashboardData = {
             resumenDiario: {
-                fecha: "20 de abril 2026",   
+                fecha: "22 de abril 2026",   
                 metricaPrincipal: "Métricas de desempeño comercial"
             },
             cards: [
