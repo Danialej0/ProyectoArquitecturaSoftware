@@ -219,8 +219,8 @@ body {
 }
 
 .trend-pill.positive {
-    background-color: rgba(16, 185, 129, 0.1); /* Verde translúcido */
-    color: #10b981; /* Texto verde brillante */
+    background-color: rgba(16, 185, 129, 0.1); 
+    color: #10b981; 
 }
 
 .trend-pill.positive::before {
@@ -229,8 +229,8 @@ body {
 }
 
 .trend-pill.negative {
-    background-color: rgba(239, 68, 68, 0.1); /* Rojo translúcido */
-    color: #ef4444; /* Texto rojo brillante */
+    background-color: rgba(239, 68, 68, 0.1); 
+    color: #ef4444; 
 }
 
 .trend-pill.negative::before {
