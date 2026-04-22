@@ -6,7 +6,7 @@ Desarrollo de prototipo
 ![Stack](https://img.shields.io/badge/Stack-Node.js%20%7C%20Express%20%7C%20EJS-success)
 ![Patrón](https://img.shields.io/badge/Patr%C3%B3n-MVC%20%7C%20Singleton-orange)
 
-Aplicación web desarrollada para la gestión interna, control de inventario y módulo de ventas de la ferretería **Ferroallamano**. Este proyecto busca digitalizar y optimizar los procesos de cotización y ventas del negocio, mejorando la eficiencia y la atención al cliente.
+Aplicación web desarrollada para la gestión interna, control de inventario y módulo de ventas de la ferretería **Ferroallamano**. Este proyecto busca digitalizar y optimizar los procesos ventas del negocio, mejorando la eficiencia y la atención al cliente.
 
 ## 🚀 Tecnologías Utilizadas
 
