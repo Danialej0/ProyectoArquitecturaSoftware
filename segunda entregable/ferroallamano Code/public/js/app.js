@@ -5,7 +5,6 @@ console.log("🟢 app.js cargado correctamente en el navegador.");
 document.addEventListener("DOMContentLoaded", () => {
     console.log("🟢 El DOM está listo. Buscando elementos...");
 
-    // --- Lógica del Ojito ---
     const togglePassword = document.querySelector("#togglePassword");
     const passwordInput = document.querySelector("#password");
 
@@ -20,14 +19,12 @@ document.addEventListener("DOMContentLoaded", () => {
         console.warn("⚠️ No se encontró el botón del ojito o el input de contraseña.");
     }
 
-    // --- Lógica del Login ---
     const loginForm = document.querySelector("#loginForm");
 
     if (loginForm) {
         console.log("🟢 Formulario 'loginForm' encontrado. Escuchando clics en Entrar...");
         
         loginForm.addEventListener("submit", async function(event) {
-            // ¡ESTA ES LA LÍNEA MÁGICA QUE EVITA QUE LA PÁGINA SE RECARGUE!
             event.preventDefault(); 
             
             console.log("⏳ Se presionó 'Entrar'. Enviando datos al servidor...");
@@ -50,7 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 if (data.success) {
                     console.log("✅ Inicio de sesión exitoso. Redirigiendo a Dashboard...");
-                    // Redirige usando una ruta absoluta
                     window.location.replace('/dashboard'); 
                 } else {
                     console.log("❌ Datos incorrectos:", data.message);
