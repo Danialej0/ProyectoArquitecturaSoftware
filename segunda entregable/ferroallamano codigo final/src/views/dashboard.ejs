@@ -28,8 +28,9 @@
                 </nav>
             </div>
             <div class="sidebar-bottom">
-                <button class="btn-sidebar-alt">+ Nueva cliente</button>
+                <button class="btn-sidebar-alt">+ Nuevo cliente</button>
                 <button class="btn-sidebar-alt">+ Nueva Venta</button>
+
             </div>
         </aside>
 
@@ -42,7 +43,7 @@
                 </div>
             </header>
 
-            <div class="dashboard-area">
+            <div class="dashboard-area">    
                 <div class="content-header">
                     <div class="content-header-titles">
                         <h1>Resumen Diario</h1>
@@ -63,14 +64,20 @@
                                     <span><%= card.trend %></span>
                                 </div>
                             </div>
+                            
                             <div class="card-main-content">
                                 <p class="card-title-stat"><%= card.title %></p>
                                 <p class="card-value-stat"><%= card.value %></p>
                             </div>
+                            
                             <p class="card-vs-yesterday">vs. ayer (<%= card.vsAyer %>)</p>
+                            
                         </div>
+                        
+                        
                     <% }); %>
                 </section>
+            
 
                 <section class="chart-section">
                     <div class="chart-card">

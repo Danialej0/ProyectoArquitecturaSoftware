@@ -37,7 +37,7 @@ class AuthController {
                     trend: "-1.1%",
                     trendClass: "negative",
                     iconClass: "fa-solid fa-tag"
-                }
+                },
             ],
             categorias: [
                 { name: "Herramientas Eléctricas", percentage: 45, color: "#9c5220" },
